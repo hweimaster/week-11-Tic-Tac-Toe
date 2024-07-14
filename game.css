@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    color:black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.square{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150 px;
+    height: 150px;
+    border: 1px solid black;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:hover{
+    background-color: rgb(173, 165, 165);
+}
+
+#gameBoard{
+    width: 450px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resetButton{
+    display:block;
+    color:rgb(110, 107, 107);
+    font-size: 18px;
+    height:50px;
+    width:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#winMessage{
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
